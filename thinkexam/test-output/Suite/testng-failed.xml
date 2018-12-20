@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.thinkexam.qa.testcases.ReportPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="negativeMarksValidation"/>
+          <include name="postiveMarksValidationTest"/>
+        </methods>
+      </class> <!-- com.thinkexam.qa.testcases.ReportPageTest -->
+      <class name="com.thinkexam.qa.testcases.BuyPackageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="validateViewSyllabusTest"/>
+          <include name="buyNowPageTest"/>
+        </methods>
+      </class> <!-- com.thinkexam.qa.testcases.BuyPackageTest -->
+      <class name="com.thinkexam.qa.testcases.MyTestPageTest">
+        <methods>
+          <include name="positiveTestAttemptValidationTest"/>
+          <include name="setUp"/>
+          <include name="negativeTestAttemptValidationTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.thinkexam.qa.testcases.MyTestPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
